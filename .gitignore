@@ -8,6 +8,7 @@ ipch/*
 *.ncb
 *.def
 *.sdf
+*.bak
 
 rcodec.vcproj.TRIC.ding.user
 rcodec.vcxproj.filters
