@@ -1,0 +1,104 @@
+
+------
+version 0.9.1.0 Aug. 2, 2009
+. modify: different id for AVS AASF/AATF Audio
+  16 AVS_s_audio 2 Audio
+  17 AVS_t_audio 2 Audio
+
+------
+version 0.9.0.9 Jul. 22, 2009
+. new: AVS Audio (aatf)
+
+------
+version 0.9.0.8 Jun. 26, 2009
+. new: AVS Audio (aasf)
+
+------
+version 0.9.0.7 Jun. 09, 2009
+. new: MXF_Mux
+
+------
+version 0.9.0.6 Nov. 13, 2008
+. debug: ddplus (check 2nd syncword)
+. new: AVS_ps ?
+
+------
+version 0.9.0.5 Oct.29, 2008
+. new: 34-mkv, 35-mov, 36-rm, 37-flv, 38-cdxa
+. summary:
+ 1 MPEG1_video 1 Video -ok
+ 2 MPEG2_video 1 Video -ok
+ 3 MPEG4_video 1 Video
+ 4 MPEG4_AVC 1 Video -ok
+ 5 VC1 1 Video -ok
+ 6 AVS_video 1 Video -ok
+10 LPCM_wav 2 Audio -ok
+11 MPEG1_audio 2 Audio -ok
+12 MPEG2_audio 2 Audio
+13 MPEG4_audio 2 Audio
+14 MPEG4HE_AAC 2 Audio
+15 mp3 2 Audio -ok
+16 AVS_audio 2 Audio
+19 LPCM_aiff 2 Audio -ok
+20 MLP 2 Audio -ok
+21 AC3 2 Audio -ok
+22 DDPlus 2 Audio -ok
+23 DTS 2 Audio -ok
+24 WMAPro 2 Audio
+25 DRA 2 Audio
+30 ASF 6 MUX -ok
+31 AVI 6 MUX -ok
+32 ASF_wmv 6 MUX -ok
+33 ASF_wma 6 MUX -ok
+34 MKV 6 MUX -ok
+35 MOV 6 MUX -ok
+36 RM 6 MUX -ok
+37 FLV 6 MUX -ok
+38 CDXA 6 MUX -ok
+40 MPEG2_ts 4 TS -ok
+41 MPEG1_ps 5 PS -ok
+42 MPEG2_ps 5 PS -ok
+
+------
+version 0.9.0.3 Feb.18, 2008
+debug: recognize AC3 with offset
+new: aiff, mpeg1_audio, mp3, mpeg1_ps, avi, mpeg2_ts, asf
+modified: mpeg2_ps
+
+------
+version 0.9.0.1 Feb.4, 2008
+. avaiable: 23 codecs at all (ok: recognizable)
+ 1 1 MPEG1_video -ok
+ 2 1 MPEG2_video -ok
+ 3 1 MPEG4_video
+ 4 1 MPEG4_AVC -ok
+ 5 1 VC1 -ok
+ 6 1 AVS_video
+10 2 LinearPCM -ok
+11 2 MPEG1_audio
+12 2 MPEG2_audio
+13 2 MPEG4_auduo
+14 2 MPEG4HE_AAC
+15 2 mp3
+16 2 AVS_video
+20 2 MLP -ok
+21 2 AC3 -ok
+22 2 DDPlus -ok
+23 2 DTS -ok
+24 2 WMAPro
+25 2 DRA
+30 4 ASF
+31 4 AVI
+40 4 MPEG2_ts
+41 5 MPEG1_ps
+42 5 MPEG2_ps -ok partly
+
+======
+TO ADD:
+Xvid, au,
+dra, avs_audio, mpeg2_audio, mpeg4_audio, mpeg4HE_AAC, wmaPro,
+
+======
+rcodec.dll
+CODEC Recognization
+Wei DING
