@@ -1,7 +1,21 @@
-Debug\*
-Release\*
-Backup\*
-_UpgradeReport_Files\*
+Debug/*
+Release/*
+Backup/*
+_UpgradeReport_Files/*
+ipch/*
+
+*.aps
+*.ncb
+*.def
+*.sdf
+
+rcodec.vcproj.TRIC.ding.user
+rcodec.vcxproj.filters
+rcodec.v11.suo
+
+UpgradeLog.htm
+UpgradeLog.XML
+
 
 # Prerequisites
 *.d
